@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerala Places</title>
+  <link rel="stylesheet" href="more.css">
+  <script src="Allepy.js"></script>
+</head>
+<body>
+
+<section class="filter-section">
+  <a href="kerela.html" class="back-button" id="back">← Back</a>
+  <div class="filters">
+    <h3><i class="fas fa-sliders-h"></i> Filter By</h3>
+    <select id="regionFilter">
+      <option value="all">Region</option>
+      <option value="north">North</option>
+      <option value="south">South</option>
+    </select>
+
+    <select id="districtFilter">
+      <option value="all">Districts</option>
+      <option value="kannur">Kannur</option>
+      <option value="alappuzha">Alappuzha</option>
+    </select>
+
+    <select id="categoryFilter">
+      <option value="all">Category</option>
+      <option value="backwaters">Backwaters</option>
+      <option value="fields">Fields</option>
+    </select>
+  </div>
+  
+</section>
+
+<section class="card-grid" id="placesGrid">
+  <div class="card" data-region="north" data-district="kannur" data-category="backwaters">
+    <img src="valapatan.jpg" alt="Valapattanam">
+    <h4>Valapattanam</h4>
+  </div>
+
+  <div class="card" data-region="south" data-district="alappuzha" data-category="fields">
+    <img src="kuttanad.jpg" alt="Kuttanad">
+    <h4>Kuttanad</h4>
+  </div>
+
+ <div button class="card" data-region="south" data-district="alappuzha" data-category="backwaters">
+   
+    
+    <a href="Alleppy.html"><img src="alappuzha.jpg" alt="Alappuzha"></a>
+      <h4>Alleppy</h4>
+    
+  </div>
+
+  <div class="card" data-region="south" data-district="munnar" data-category="backwaters">
+    <img src="munnar.jpg" alt="Alappuzha">
+    <h4>Munnar</h4>
+  </div>
+
+  <div class="card" data-region="south" data-district="alappuzha" data-category="backwaters">
+    <img src="kocchin.jpg" alt="Alappuzha">
+    <h4>Kocchin</h4>
+  </div>
+
+  <div class="card" data-region="south" data-district="alappuzha" data-category="backwaters">
+    <img src="trivandrum.jpg" alt="Alappuzha">
+    <h4>  Trivandrum</h4>
+  </div>
+  <div class="card" data-region="south" data-district="alappuzha" data-category="backwaters">
+    <img src="alappuzha.jpg" alt="Alappuzha">
+    <h4>Alappuzha</h4>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
